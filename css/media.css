@@ -308,3 +308,22 @@
     display: none;
   }
 }
+@media (max-width: 520px) {
+  .footer-boxes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .footer-networks {
+    gap: 0px;
+  }
+  .footer-networks {
+    gap: 20px;
+  }
+  .footer-end {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
